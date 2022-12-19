@@ -1,0 +1,32 @@
+/* .form-floating>.form-control{
+    padding: 1rem 0.75rem;
+    border: none;
+    border-bottom: 1px solid #E1E1E1;
+    border-radius: 0;
+    font-family: "Manrope" !important;
+  } */
+
+.CNLabel{
+  color: #2B2B2B;
+  margin-bottom: 18px;
+  border: none;
+}
+  
+.CNLabel input {
+  background: #FFFFFF;
+  border-bottom: 1px solid #E1E1E1;
+  box-shadow: none;
+  color: #2B2B2B;
+  background-image: none !important;
+  font-family: 'Manrope';
+}
+  
+.CNLabel input:focus {
+  background: rgba(255, 86, 48, 0.04);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none !important;
+  color: #2B2B2B;
+  background-image: none !important;
+  border-bottom: 1px solid #2B2B2B;
+}

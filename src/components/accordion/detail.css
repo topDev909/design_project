@@ -1,0 +1,58 @@
+
+.mb-2.detail.accordion {
+    background-color: #FDFDFD!important;
+}
+
+.mb-2.accordion.detail .card{
+    border-radius: 7px;
+    margin-bottom: 20px;
+    border: none;
+}
+.mb-2.accordion.detail .card-title{
+    font-family: 'Manrope'!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E519F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.mb-2.accordion.detail .card-text{
+    font-family: 'Manrope'!important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #555555;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.mb-2.accordion.detail .card-footer {
+    border: none!important;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.mb-2.accordion.detail .card-footer .userPart{
+    display: flex;
+    align-items: center;
+}
+
+.mb-2.accordion.detail .card-footer .userPart p {
+    margin: 0;
+    margin-left: .5rem;
+}
+
+.mb-2.detail.accordion .accordion-body .card-body{
+    box-shadow: 0 0 30px 0 #cacaca30;
+}
+

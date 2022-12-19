@@ -1,0 +1,174 @@
+
+
+
+.TopTable{
+    font-family: 'Manrope' !important;
+    padding: 43px;
+    position: relative;
+}
+
+.TopTable p {
+    margin-bottom: 0px;
+}
+
+.TopTable table th:first-of-type,
+.TopTable table tbody td:first-of-type {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0px;
+    background-color: #F9F9F9 !important;
+    /* background-color: white; */
+}
+
+.TopTable table tbody td:first-of-type {
+    background-color: #FFFFFF !important;
+}
+
+
+.sticky-column h6{
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+    font-family: 'Manrope' !important;
+}
+
+.sticky-column .lastLogin {
+    color: #6D7D93;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: capitalize;
+}
+
+.TopTable table tbody tr td h6 {
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+}
+
+.sticky-column .footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 23px;
+}
+
+.pagination {
+    margin-bottom: 0px !important;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.TopTable select {
+    border-radius: 10px;
+    border: none;
+}
+
+.TopTable .page-item.active .page-link {
+    background: #1E519F;
+    color: white;
+}
+
+.TopTable table thead th div button {
+    color: #D3D3D3;
+}
+.TopTable table tbody tr td {
+    background: white !important;
+    opacity: 1;
+    border-radius: 6px;
+    padding: 17px !important;
+    min-width: 170px !important;
+    margin-bottom: 23px !important;
+}
+
+.TopTable table tbody tr td h6 {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 4px;
+}
+.d-flex.align-items-center.gap-2 .priority {
+    background: #F5F8FB;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #071235;
+    padding: 2px 4px;
+    width: 60px !important;
+}
+
+.TopTable .lastLogin {
+    color: #6D7D93;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: capitalize;
+}
+
+.TopTable .footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 23px;
+}
+
+.pagination {
+    margin-bottom: 0px !important;
+    gap: 15px;
+    flex-wrap: wrap;
+    border-radius: 10px !important;
+}
+
+.TopTable select {
+    border-radius: 10px;
+    border: none;
+}
+
+.TopTable .page-link {
+    background: #EFF2F2;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TopTable .page-link span {
+    font-size: 23px;
+    margin-top: -2px;
+}
+
+
+.TopTable .priority {
+    background: #F5F8FB;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #071235;
+    padding: 2px 4px;
+    width: 60px !important;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.border{
+    background-color: black;
+}
